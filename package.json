@@ -1,0 +1,14 @@
+{
+  "name": "blogpawel",
+  "version": "1.0.0",
+  "description": "first blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Karas",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
