@@ -18,7 +18,5 @@ window.authorsList = [
   {
     id: 7,
     username: 'Ruth23'
-  },
-
-
+  }
 ]
