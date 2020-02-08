@@ -13,11 +13,12 @@ placeForFirstPost.appendChild(post)
 
 var commentsPlace = document.getElementById('commentsPlace')
 commentsPlace.innerHTML = ''
+
 for (var i in commentsToFirstPost) {
-  comentsForFirsPost()
+  comentsForFirsPost(commentsPlace, commentsToFirstPost[i])
 }
-function comentsForFirsPost () {
-  var oneComment = commentsToFirstPost[i]
+
+function comentsForFirsPost (commentsPlace,oneComment) {
   var commentsContent = document.createElement('div')
   commentsContent.classList.add('list-group-item')
   commentsContent.innerHTML = '<div class="comment-body">' + oneComment.body + '</div>' + '<h6><div class="post-author">' + oneComment.author.username + '</div></h6>'
